@@ -55,6 +55,7 @@ header button {
     margin-top: 10px;
     cursor: pointer;
     color: aliceblue;
+    font-size: 20px;
 }
 section {
     display: flex;
@@ -63,6 +64,11 @@ section {
 aside {
     background-color: rgb(194, 138, 138);
     flex: 0.2;
+    justify-content:space-around;
+    align-items: center;
+    display: flex;
+    color: white;
+    font-size: 30px;
 }
 main {
     background-color: rgb(216, 216, 216);
@@ -72,14 +78,24 @@ footer {
     background: brown;
     height: 20vh;
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
 }
-.center {
+.cat {
     justify-content: center;
     align-items: center;
     display: flex;
+    height: 500px;
+}
+.center{
+   justify-content: space-around;
+    align-items: center;
+    display: flex;
+    padding-top: 20px;
 }
 footer p {
     color: aliceblue;
+}
+footer i {
+    color: white;
 }
